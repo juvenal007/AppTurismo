@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        >
+
+        <ImageView
+            android:id="@+id/item_foto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/linares1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_id"
+            android:text=" "
+            android:textSize="1sp"
+            />
+        <TextView
+            android:id="@+id/item_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Talca"
+            android:textSize="64sp"
+            android:textStyle="bold|italic"
+            android:layout_alignParentBottom="true"
+            android:padding="38dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
